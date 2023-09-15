@@ -1,0 +1,28 @@
+*{
+    background-color: black;
+    color: white;
+}
+.wrapper img{
+    width: 500px;
+    height: 500px;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.continer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+.card{
+    border: 1px solid white;
+}
+ .card img{
+    width: 400px;
+    height: 400px;
+ }
+ /*mengatur ukuran card img*/
